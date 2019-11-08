@@ -41,5 +41,89 @@ $THEME->parents_exclude_sheets[] = "recit";
 
 $THEME->sheets[] = "recit-francais";
 
-$THEME->rendererfactory = 'theme_overridden_renderer_factory';                                                                                                  
+$THEME->rendererfactory = 'theme_overridden_renderer_factory';                
+
+$THEME->requiredblocks = ''; 
+//$THEME->iconsystem = \core\output\icon_system::FONTAWESOME;
+
+$THEME->layouts = [
+    // Most backwards compatible layout without the blocks - this is the layout used by default.
+    'base' => array(
+        'file' => 'columns2.php',
+        'regions' => array(),
+    ),
+    // Standard layout with blocks, this is recommended for most pages with general information.
+    'standard' => array(
+        'file' => 'columns2.php',
+        'regions' => array('side-pre'),
+        'defaultregion' => 'side-pre',
+    ),
+    // Course page.
+    'course' => array(
+        'file' => 'course.php',
+        'regions' => array('side-pre'),
+        'defaultregion' => 'side-pre',
+        'options' => array('nofooter' => true, 'nonavbar' => false, 'langmenu' => true),
+    ),
+    'coursecategory' => array(
+        'file' => 'columns2.php',
+        'regions' => array('side-pre'),
+        'defaultregion' => 'side-pre',
+    ),
+    // Internal course modules page.
+    'incourse' => array(
+        'file' => 'incourse.php',
+        'regions' => array('side-pre'),
+        'defaultregion' => 'side-pre',
+        'options' => array('nofooter' => true, 'nonavbar' => false, 'langmenu' => true),
+    ),
+    // The site home page.
+    'frontpage' => array(
+        'file' => 'frontpage.php',
+        'regions' => array('side-pre'),
+        'defaultregion' => 'side-pre',
+        'options' => array('nofooter' => true, 'nonavbar' => true),
+    ),
+    // Server administration scripts.
+    'admin' => array(
+        'file' => 'columns2.php',
+        'regions' => array('side-pre'),
+        'defaultregion' => 'side-pre',
+		'options' => array('nofooter' => true),
+    ),
+    // My dashboard page.
+    'mydashboard' => array(
+        'file' => 'mydashboard.php',
+        'regions' => array('side-pre'),
+        'defaultregion' => 'side-pre',
+        'options' => array('nofooter' => true, 'nonavbar' => true, 'langmenu' => true),
+    ),
+    
+    'login' => array(
+        'file' => 'login.php',
+        'regions' => array(),
+        'options' => array('langmenu' => true),
+    ),
+    // No blocks and minimal footer - used for legacy frame layouts only!
+    'frametop' => array(
+        'file' => 'columns1.php',
+        'regions' => array(),
+        'options' => array('nofooter' => true, 'nocoursefooter' => true),
+    ),
+    // Used during upgrade and install, and for the 'This site is undergoing maintenance' message.
+    // This must not have any blocks, links, or API calls that would lead to database or cache interaction.
+    // Please be extremely careful if you are modifying this layout.
+    'maintenance' => array(
+        'file' => 'maintenance.php',
+        'regions' => array(),
+    ),
+    // Should display the content and basic headers only.
+    'print' => array(
+        'file' => 'columns1.php',
+        'regions' => array(),
+        'options' => array('nofooter' => true, 'nonavbar' => false),
+    )
+];                                                                                                
+
+                                                                                  
 

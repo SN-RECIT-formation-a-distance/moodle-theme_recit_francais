@@ -2,11 +2,11 @@
  * Theme RECIT Français
  */
 
-  @import "../../recit/scss/recit/variables"; // import the variables from the base theme
  @import "../scss/variables"; // import the theme variables 
 
 @import "../../recit/scss/recit/bootstrap-override";
 @import "../../recit/scss/recit/moodle-override";
+@import "../../recit/scss/recit/_vendor.scss";
 @import "../../recit/scss/recit/animate.min";
 @import "../../recit/scss/extras/transitions";
 @import "../../recit/scss/extras/simple-line-icons";
@@ -26,8 +26,10 @@
 @import "../../recit/scss/recit/btnapp";
 @import "../../recit/scss/recit/calendar";
 @import "../../recit/scss/recit/responsive";
-@import "../../recit/scss/recit/stylesmbededquestionsUBEO";
+/*@import "../../recit/scss/recit/stylesmbededquestionsUBEO";*/
 @import "../../recit/scss/recit/glossairestyleUBEO";
+@import "../../recit/scss/recit/questionrecitUBEO";
 @import "../../recit/scss/recit/recit";
 @import "../../recit/scss/recit/editeur_html";
 @import "../../recit/scss/recit/recit-course-navigation";
+@import "../../recit/scss/recit/sous-theme";

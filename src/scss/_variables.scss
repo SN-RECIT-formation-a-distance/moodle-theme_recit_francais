@@ -16,35 +16,35 @@ $warning:#e9c06b; //FFE869
 $light:#FDFBF7; //
 $dark:#555555; //
 $white:#ffffff; //
-
+$black:#000;
 $color1:#635a51;
 $color2:#767676;
 $color3:#FFFFFF;
 $color4:#FFFFFF;
 $color5:#FFFFFF;
-//$brand-primary: $primary;
-//$body-color: #373a3c;
+$brand-primary: $primary;
+$body-color: #373a3c;
  
 $theme_color1:#1A425C;
 $theme_color2:#E9C06B;
 $theme_color3:#59B5BE;
 $theme_color4:#DF6660;
 $theme_color5:#494755;
+$page-max-width: 1520px;
+$btn-radius: 30px;
+$navbar-header-color: #fff !default;
  
-//$btn-radius: 30px;
-//$navbar-header-color: #fff !default;
- 
-/*$headings-font-family: $font-family-sans-serif !default;
+$headings-font-family: $font-family-sans-serif !default;
 $headings-font-weight: 400 !default;
-$headings-color: $primary !default;*/
+$headings-color: $primary !default;
  
-//$body-bg: #eef5f9 !default;
+$body-bg: #eef5f9 !default;
 
-/*$card-border-radius: 0 !default;
-$card-border-color: #d7dfe3 !default;*/
+$card-border-radius: 0 !default;
+$card-border-color: #d7dfe3 !default;
  
 $navbar-height: 50px !default;
-/*$navbar-bg: $primary !default;
+$navbar-bg: $primary !default;
 $navbar-bg-hover: $secondary !default;
 $navbar-separator: $secondary !default;
  
@@ -71,4 +71,10 @@ $navbar-separator: $secondary !default;
 $carousel-control-color: $secondary !default;
 $carousel-control-prev-icon-bg: "data:image/svg+xml;charset=utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' fill=\'$secondary\' viewBox=\'0 0 8 8\'%3E%3Cpath d=\'M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z\'/%3E%3C/svg%3E" !default;
 $carousel-control-next-icon-bg: "data:image/svg+xml;charset=utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' fill=\'$secondary\' viewBox=\'0 0 8 8\'%3E%3Cpath d=\'M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z\'/%3E%3C/svg%3E" !default;
-*/
+
+
+
+
+
+
+
