@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();                                                                                                
  
 // This is the version of the plugin.                                                                                               
-$plugin->version = '2019101801';                                                                                                    
+$plugin->version = '2019110800';                                                                                                    
  
 // This is the version of Moodle this plugin requires.                                                                              
 $plugin->requires = '2018050800';                                                                                                   
@@ -37,5 +37,5 @@ $plugin->component = 'theme_recit_francais';
  
 // This is a list of plugins, this plugin depends on (and their versions).                                                          
 $plugin->dependencies = [                                                                                                           
-    'theme_recit' => '2019072400'                                                                                                   
+    'theme_recit' => '2019110800'                                                                                                   
 ];
