@@ -5295,9 +5295,10 @@ body.drawer-open-right [data-region="blocks-column"] {
   background-color: #f1f1f1;
   border: solid 1px #ccc; }
 
+/*
 .moodle-dialogue {
-  z-index: 1000 !important; }
-
+z-index: 1000!important;
+}*/
 li {
   list-style-type: none; }
 
@@ -6437,6 +6438,91 @@ section[data-recit-block="1"], .editeur {
   /*
   */
   /*Bouton RÉCIT*/
+    /*.btn-default, .recit-btn-primary{
+      color: $secondary;
+      border: solid 2px $secondary;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      border-radius: 30px;
+      transform: skewX(0);
+    }
+    .recit-btn-primary:hover{
+    border: solid 4px white;
+    }
+    .recit-btn-primary{
+    color: white;
+    }
+    .recit-btn-secondary{
+      color: $secondary;
+      border: solid 2px $secondary;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      border-radius: 30px;
+      transform: skewX(0);
+    }
+    .recit-btn-secondary:hover{
+    border: solid 4px white;
+    }
+    .recit-btn-secondary{
+    color: white;
+    }
+    .recit-btn-danger{
+      color: $danger;
+      border: solid 2px $danger;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      border-radius: 30px;
+      transform: skewX(0);
+    }
+    .recit-btn-danger:hover{
+    border: solid 4px white;
+    }
+    .recit-btn-danger{
+    color: white;
+    }
+
+    .recit-btn-success{
+      color: $success;
+      border: solid 2px $success;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      border-radius: 30px;
+      transform: skewX(0);
+    }
+    .recit-btn-success:hover{
+    border: solid 4px white;
+    }
+    .recit-btn-success{
+    color: white;
+    }
+    .recit-btn-warning{
+      color: $warning;
+      border: solid 2px $warning;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      border-radius: 30px;
+      transform: skewX(0);
+    }
+    .recit-btn-warning:hover{
+    border: solid 4px white;
+    }
+    .recit-btn-warning{
+    color: white;
+    }
+    .recit-btn-info{
+      color: $info;
+      border: solid 2px $info;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      border-radius: 30px;
+      transform: skewX(0);
+    }
+    .recit-btn-info:hover{
+    border: solid 4px white;
+    }
+    .recit-btn-info{
+    color: white;
+    }*/
   /* Ancien style*/
   /*-------------------------------*\
       RANGÉES
@@ -6511,6 +6597,8 @@ section[data-recit-block="1"], .editeur {
     z-index: 1000000;
     outline: 4px dotted blue;
     outline-offset: -15px; }
+  section[data-recit-block="1"] .moodle-dialogue, .editeur .moodle-dialogue {
+    z-index: 1000 !important; }
   section[data-recit-block="1"] .row, .editeur .row {
     background-color: transparent; }
   section[data-recit-block="1"] .bg_dark, .editeur .bg_dark {
@@ -7173,72 +7261,6 @@ section[data-recit-block="1"], .editeur {
       flex-basis: 100%;
       -webkit-flex-basis: 100%;
       padding-bottom: 2rem; } }
-  section[data-recit-block="1"] .btn-default, section[data-recit-block="1"] .recit-btn-primary, .editeur .btn-default, .editeur .recit-btn-primary {
-    color: #1a425c;
-    border: solid 2px #1a425c;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    border-radius: 30px;
-    transform: skewX(0); }
-  section[data-recit-block="1"] .recit-btn-primary:hover, .editeur .recit-btn-primary:hover {
-    border: solid 4px white; }
-  section[data-recit-block="1"] .recit-btn-primary, .editeur .recit-btn-primary {
-    color: white; }
-  section[data-recit-block="1"] .recit-btn-secondary, .editeur .recit-btn-secondary {
-    color: #1a425c;
-    border: solid 2px #1a425c;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    border-radius: 30px;
-    transform: skewX(0); }
-  section[data-recit-block="1"] .recit-btn-secondary:hover, .editeur .recit-btn-secondary:hover {
-    border: solid 4px white; }
-  section[data-recit-block="1"] .recit-btn-secondary, .editeur .recit-btn-secondary {
-    color: white; }
-  section[data-recit-block="1"] .recit-btn-danger, .editeur .recit-btn-danger {
-    color: #df6660;
-    border: solid 2px #df6660;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    border-radius: 30px;
-    transform: skewX(0); }
-  section[data-recit-block="1"] .recit-btn-danger:hover, .editeur .recit-btn-danger:hover {
-    border: solid 4px white; }
-  section[data-recit-block="1"] .recit-btn-danger, .editeur .recit-btn-danger {
-    color: white; }
-  section[data-recit-block="1"] .recit-btn-success, .editeur .recit-btn-success {
-    color: #59b58e;
-    border: solid 2px #59b58e;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    border-radius: 30px;
-    transform: skewX(0); }
-  section[data-recit-block="1"] .recit-btn-success:hover, .editeur .recit-btn-success:hover {
-    border: solid 4px white; }
-  section[data-recit-block="1"] .recit-btn-success, .editeur .recit-btn-success {
-    color: white; }
-  section[data-recit-block="1"] .recit-btn-warning, .editeur .recit-btn-warning {
-    color: #e9c06b;
-    border: solid 2px #e9c06b;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    border-radius: 30px;
-    transform: skewX(0); }
-  section[data-recit-block="1"] .recit-btn-warning:hover, .editeur .recit-btn-warning:hover {
-    border: solid 4px white; }
-  section[data-recit-block="1"] .recit-btn-warning, .editeur .recit-btn-warning {
-    color: white; }
-  section[data-recit-block="1"] .recit-btn-info, .editeur .recit-btn-info {
-    color: #fbb140;
-    border: solid 2px #fbb140;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    border-radius: 30px;
-    transform: skewX(0); }
-  section[data-recit-block="1"] .recit-btn-info:hover, .editeur .recit-btn-info:hover {
-    border: solid 4px white; }
-  section[data-recit-block="1"] .recit-btn-info, .editeur .recit-btn-info {
-    color: white; }
   section[data-recit-block="1"] banner_video, .editeur banner_video {
     display: block;
     position: absolute;
@@ -8275,6 +8297,15 @@ body.theme-recit-histoire {
   /*-- Button 6 --*/ }
   body.theme-recit-histoire #page-header .card {
     background-image: url("[[pix:theme|banner-histoire]]") no-repeat right center; }
+  body.theme-recit-histoire .recit-btn {
+    position: relative;
+    display: inline-block;
+    font-weight: 500;
+    -moz-transform: skewX(-15deg) !important;
+    -webkit-transform: skewX(-15deg) !important;
+    -o-transform: skewX(-15deg) !important;
+    transform: skewX(-15deg) !important;
+    background: none; }
   body.theme-recit-histoire h5 a,
   body.theme-recit-histoire h5 a.style_btn_1 {
     display: inline-block;
@@ -8293,7 +8324,7 @@ body.theme-recit-histoire {
     text-decoration: none;
     border-left: solid 5px #E9C06B;
     background: #1A425C; }
-  body.theme-recit-histoire .recit-btn, body.theme-recit-histoire .recit-btn-style_btn_1 {
+  body.theme-recit-histoire .recit-btn-style_btn_1 {
     display: inline-block;
     padding: 12px 12px 14px;
     margin: 0 2px 4px 2px;
@@ -8343,26 +8374,17 @@ body.theme-recit-histoire {
     border-left: solid 5px #ffffff;
     border-right: solid 5px #ffffff;
     background: #ffffff; }
-  body.theme-recit-histoire h5 a.style_btn_6 {
+  body.theme-recit-histoire .recit-btn-primary, body.theme-recit-histoire h5 a.style_btn_6 {
     color: #ffffff;
     border-left: solid 5px #E9C06B;
     border-right: solid 5px #E9C06B;
     background: #E9C06B; }
-  body.theme-recit-histoire h5 a.style_btn_6:hover {
+  body.theme-recit-histoire .recit-btn-primary:hover, body.theme-recit-histoire h5 a.style_btn_6:hover {
     color: #E9C06B;
     border-left: solid 5px #ffffff;
     border-right: solid 5px #ffffff;
     background: #ffffff; }
   body.theme-recit-histoire h5 a strong {
-    position: relative;
-    display: inline-block;
-    font-weight: 500;
-    -moz-transform: skewX(-15deg) !important;
-    -webkit-transform: skewX(-15deg) !important;
-    -o-transform: skewX(-15deg) !important;
-    transform: skewX(-15deg) !important;
-    background: none; }
-  body.theme-recit-histoire .recit-btn {
     position: relative;
     display: inline-block;
     font-weight: 500;
@@ -8398,6 +8420,17 @@ body.theme-recit-histoire {
     body.theme-recit-histoire h4 strong:after {
       left: auto;
       right: -28px; } }
+
+body.theme-recit-histoire#page-mod-book-view .block-region .card-header {
+  font-family: "Rubik", sans-serif;
+  text-transform: uppercase;
+  display: inline-block;
+  line-height: 72px;
+  margin-bottom: 20px;
+  font-size: x-large;
+  padding: .75rem 1.25rem;
+  background-color: rgba(46, 43, 43, 0.459);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125); }
 
 body.theme-recit-mathematique {
   	/*-------------------------------*\
