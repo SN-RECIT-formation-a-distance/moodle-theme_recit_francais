@@ -2,8 +2,8 @@
  * Theme RECIT Français
  */
 
- @import "../scss/variables"; // import the theme variables 
-
+@import "../../recit/scss/recit/variables"; // import the variables from the base theme
+@import "../scss/variables"; // import the theme variables 
 @import "../../recit/scss/recit/bootstrap-override";
 @import "../../recit/scss/recit/moodle-override";
 @import "../../recit/scss/recit/_vendor.scss";
