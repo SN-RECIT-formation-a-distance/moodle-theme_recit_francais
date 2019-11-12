@@ -1,80 +1,38 @@
-
- $font-family-sans-serif: 'ubunturegular', sans-serif;
+/**************************************
+ * FONTS
+ *************************************/
+$font-family-sans-serif: 'ubunturegular', sans-serif;
  $subheadings-font-family: 'vigaregular', sans-serif;
  $headings-font-family: 'Rubik', sans-serif; //'port_lligat_slabregular', serif
  $figuretexte: 'ubunturegular', sans-serif;
   
- 
-$enable-gradients: true;
-$primary:#494755; //4b4a4e
-$secondary:#1a425c; //009ccd
-$secondarypale:#3366cc; //0082C6
-$success:#59b58e; //b7d233
-$danger:#df6660; //d0181e
-$info:#fbb140;
-$warning:#e9c06b; //FFE869
-$light:#FDFBF7; //
-$dark:#555555; //
-$white:#ffffff; //
-$black:#000;
+ /**************************************
+ * COLORS
+ *************************************/
+$primary:#494755;
+$secondary:#1a425c;
+$secondarypale:#3366cc;
+$success:#59b58e;
+$danger:#df6660; 
+$warning:#e9c06b;
+$light:#FDFBF7; 
+$dark:#555555; 
+
 $color1:#635a51;
 $color2:#767676;
 $color3:#FFFFFF;
 $color4:#FFFFFF;
 $color5:#FFFFFF;
-$brand-primary: $primary;
-$body-color: #373a3c;
- 
+
 $theme_color1:#1A425C;
 $theme_color2:#E9C06B;
 $theme_color3:#59B5BE;
 $theme_color4:#DF6660;
 $theme_color5:#494755;
-//$page-max-width: 1520px;
-$btn-radius: 30px;
-$navbar-header-color: #fff !default;
- 
-$headings-font-family: $font-family-sans-serif !default;
-$headings-font-weight: 400 !default;
-$headings-color: $primary !default;
- 
-$body-bg: #eef5f9 !default;
 
-$card-border-radius: 0 !default;
-$card-border-color: #d7dfe3 !default;
- 
+/**************************************
+ * GENERAL
+ *************************************/
+
 $navbar-height: 50px !default;
-$navbar-bg: $primary !default;
-$navbar-bg-hover: $secondary !default;
-$navbar-separator: $secondary !default;
- 
-//$page-max-width: 1520px;
- 
- $calendarEventCategoryColor: #fc4b6c !default;
- $calendarEventCourseColor: #7460ee !default;
- $calendarEventGlobalColor: #1e88e5 !default;
- $calendarEventGroupColor: #ffb22b !default;
- $calendarEventUserColor: #26c6da !default;
- 
- $m-login-padding: 10px;
- $m-login-boxheight: 350px;
- $m-card-padding: 1.25rem;
- $m-moodle-color: #f98012 !default;
- $m-facebook-color: #3b5998 !default;
- $m-twitter-color: #55acee !default;
- $m-youtube-color: #cc181e !default;
- $m-googleplus-color: #d34836 !default;
- $m-linkedin-color: #007bb5 !default;
- $m-instagram-color: #8a3ab9 !default;
- 
- 
-$carousel-control-color: $secondary !default;
-$carousel-control-prev-icon-bg: "data:image/svg+xml;charset=utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' fill=\'$secondary\' viewBox=\'0 0 8 8\'%3E%3Cpath d=\'M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z\'/%3E%3C/svg%3E" !default;
-$carousel-control-next-icon-bg: "data:image/svg+xml;charset=utf8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' fill=\'$secondary\' viewBox=\'0 0 8 8\'%3E%3Cpath d=\'M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z\'/%3E%3C/svg%3E" !default;
-
-
-
-
-
-
 
