@@ -2,34 +2,6 @@
  * Theme RECIT Français
  */
 
- @import "../scss/variables"; // import the theme variables 
-
-@import "../../recit/scss/recit/bootstrap-override";
-@import "../../recit/scss/recit/moodle-override";
-@import "../../recit/scss/recit/_vendor.scss";
-@import "../../recit/scss/recit/animate.min";
-@import "../../recit/scss/extras/transitions";
-@import "../../recit/scss/extras/simple-line-icons";
-@import "../../recit/scss/extras/animate";
-@import "../../recit/scss/extras/metismenu";
-@import "../../recit/scss/recit/general";
-@import "../../recit/scss/recit/breadcrumb";
-@import "../../recit/scss/recit/navbar";
-@import "../../recit/scss/recit/frontpage";
-@import "../../recit/scss/recit/login";
-@import "../../recit/scss/recit/footer";
-@import "../../recit/scss/recit/nav-overlay";
-@import "../../recit/scss/recit/blocks";
-@import "../../recit/scss/recit/mydashboard";
-@import "../../recit/scss/recit/course";
-@import "../../recit/scss/recit/grade";
-@import "../../recit/scss/recit/btnapp";
-@import "../../recit/scss/recit/calendar";
-@import "../../recit/scss/recit/responsive";
-/*@import "../../recit/scss/recit/stylesmbededquestionsUBEO";*/
-@import "../../recit/scss/recit/glossairestyleUBEO";
-@import "../../recit/scss/recit/questionrecitUBEO";
-@import "../../recit/scss/recit/recit";
-@import "../../recit/scss/recit/editeur_html";
-@import "../../recit/scss/recit/recit-course-navigation";
-@import "../../recit/scss/recit/sous-theme";
+@import "../../recit/scss/recit/variables"; // import the variables from the base theme
+@import "../scss/variables"; // import the theme variables 
+@import "../../recit/scss/recit/import"; 
