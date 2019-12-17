@@ -44,5 +44,5 @@ $THEME->sheets[] = "recit-francais";
 $THEME->rendererfactory = 'theme_overridden_renderer_factory';                
 
 $THEME->requiredblocks = ''; 
-//$THEME->iconsystem = \core\output\icon_system::FONTAWESOME;
+
 
