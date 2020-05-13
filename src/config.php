@@ -42,7 +42,8 @@ $THEME->parents_exclude_sheets[] = "recit";
 $THEME->sheets[] = "recit-francais";
 
 $THEME->rendererfactory = 'theme_overridden_renderer_factory';                
-
 $THEME->requiredblocks = ''; 
+
+$THEME->yuicssmodules = array();
 
 
