@@ -36,7 +36,7 @@ $plugin->requires = 2018050800;
 $plugin->component = 'theme_recit_francais';   
 
 // This is the named version.
-$plugin->release = 'R8-2020052700';                                                                                              
+$plugin->release = 'R8-V1.8';                                                                                              
  
 // This is a list of plugins, this plugin depends on (and their versions).                                                          
 $plugin->dependencies = [                                                                                                           
