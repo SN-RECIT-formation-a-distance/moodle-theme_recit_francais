@@ -23,6 +23,11 @@
 // @developer  Studio XP : {@link https://www.studioxp.ca}
  
 // This line protects the file from being accessed by a URL directly.                                                               
-defined('MOODLE_INTERNAL') || die();
+defined('MOODLE_INTERNAL') || die();                                                                                                
  
-// We will add callbacks here as we add features to our theme.
+// A description shown in the admin theme selector.                                                                                 
+$string['choosereadme'] = 'Theme recit_francais est un enfant de Recit';                
+// The name of our plugin.                                                                                                          
+$string['pluginname'] = 'RÉCIT français';                                                                                                    
+// We need to include a lang string for each block region.                                                                          
+$string['region-side-pre'] = 'Droit';

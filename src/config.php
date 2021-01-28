@@ -25,25 +25,14 @@
 // This line protects the file from being accessed by a URL directly.                                                               
 defined('MOODLE_INTERNAL') || die();
  
-// $THEME is defined before this page is included and we can define settings by adding properties to this global object.            
- 
-// The first setting we need is the name of the theme. This should be the last part of the component name, and the same             
-// as the directory name for our theme.                                                                                             
-$THEME->name = 'recit_francais';                                                                                                             
-
-// This is a critical setting. We want to inherit from theme_boost because it provides a great starting point for SCSS bootstrap4   
-// themes. We could add more than one parent here to inherit from multiple parents, and if we did they would be processed in        
-// order of importance (later themes overriding earlier ones). Things we will inherit from the parent theme include                 
-// styles and mustache templates and some (not all) settings.                                                                       
+$THEME->name = 'recit_francais';
+$THEME->sheets = [];                                                                                                                
+$THEME->editor_sheets = [];                                                                                                         
 $THEME->parents = ['recit'];   
-
 $THEME->parents_exclude_sheets[] = "recit";
-
-$THEME->sheets[] = "recit-francais";
-
+$THEME->scss = function($theme) {
+    return theme_recit_get_main_scss_content($theme);
+};
 $THEME->rendererfactory = 'theme_overridden_renderer_factory';                
 $THEME->requiredblocks = ''; 
-
 $THEME->yuicssmodules = array();
-
-

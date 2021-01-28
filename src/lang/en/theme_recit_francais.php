@@ -28,6 +28,6 @@ defined('MOODLE_INTERNAL') || die();
 // A description shown in the admin theme selector.                                                                                 
 $string['choosereadme'] = 'Theme recit_francais is a child theme of Recit';                
 // The name of our plugin.                                                                                                          
-$string['pluginname'] = 'Recit Français';                                                                                                    
+$string['pluginname'] = 'RÉCIT Français';                                                                                                    
 // We need to include a lang string for each block region.                                                                          
 $string['region-side-pre'] = 'Right';
