@@ -27,22 +27,20 @@ defined('MOODLE_INTERNAL') || die();
  
 // This is the version of the plugin.                                                                                               
 
-$plugin->version = 2021021000;
+$plugin->version = 2021050400;
 
 // This is the named version.
-$plugin->release = 'R12-V1.12.0';  
+$plugin->release = 'R13-V1.13.0';  
 
 // This is a stable release.
-$plugin->maturity = MATURITY_BETA;                                                                                                    
- 
+$plugin->maturity = MATURITY_BETA;                                                                                         
 // This is the version of Moodle this plugin requires.                                                                              
-$plugin->requires = 2018050800;                                                                                                   
- 
+$plugin->requires = 2018050800;                                                                                         
 // This is the component name of the plugin - it always starts with 'theme_'                                                        
 // for themes and should be the same as the name of the folder.                                                                     
 $plugin->component = 'theme_recit_francais';   
 
 // This is a list of plugins, this plugin depends on (and their versions).                                                          
-$plugin->dependencies = [                                                                                                           
-    'theme_recit' => 2021021000                                                                                                   
+$plugin->dependencies = [
+    'theme_recit' => 2021050400
 ];
