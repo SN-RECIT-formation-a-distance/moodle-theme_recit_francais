@@ -31,3 +31,4 @@ $string['choosereadme'] = 'Theme recit_francais is a child theme of Recit';
 $string['pluginname'] = 'RÉCIT Français';                                                                                                    
 // We need to include a lang string for each block region.                                                                          
 $string['region-side-pre'] = 'Right';
+$string['region-side-post'] = 'To the top';
