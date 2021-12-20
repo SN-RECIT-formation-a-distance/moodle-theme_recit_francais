@@ -42,5 +42,5 @@ $plugin->component = 'theme_recit_francais';
 
 // This is a list of plugins, this plugin depends on (and their versions).                                                          
 $plugin->dependencies = [
-    'theme_recit' => 2021092400
+    'theme_recit2' => 2021092400
 ];

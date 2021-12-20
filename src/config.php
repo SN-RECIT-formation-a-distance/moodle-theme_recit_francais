@@ -28,10 +28,9 @@ defined('MOODLE_INTERNAL') || die();
 $THEME->name = 'recit_francais';
 $THEME->sheets = [];                                                                                                                
 $THEME->editor_sheets = [];                                                                                                         
-$THEME->parents = ['recit'];   
-$THEME->parents_exclude_sheets[] = "recit";
+$THEME->parents = ['recit2'];
 $THEME->scss = function($theme) {
-    return theme_recit_get_main_scss_content($theme);
+    return theme_recit2_get_main_scss_content($theme);
 };
 $THEME->rendererfactory = 'theme_overridden_renderer_factory';                
 $THEME->requiredblocks = ''; 
