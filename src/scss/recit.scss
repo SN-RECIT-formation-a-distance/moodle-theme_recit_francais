@@ -92,5 +92,49 @@ $body-color: #373a3c;
 /* Current directory is recit2/scss */
 @import "./recit/import";
 @import "./deprecated/editorhtml";
-@import "./deprecated/sous-theme";
 @import "./extras/font-awesome";
+
+body.theme-recit-francais{
+  .personal-note-embedded{
+      .title{
+          font-size: .9375rem;
+      }
+  }
+}
+.editeur, body.theme-recit-francais{
+  #top-1.engine{display: none;} // code dynamique intrusif du Mobirise 
+  
+  .figure {
+      background: none!important;
+  }
+  .figure_custom {
+      border: 1px solid!important;
+      border-color: $primary!important;
+  }
+  .figure-caption {
+      background: none!important;
+  }
+
+  /*-------------------------------*\
+      Custom rows styles
+  \*-------------------------------*/
+  .diago-row {
+      background: #0057a7;
+      background: -moz-linear-gradient(75deg, #004e95 0%, #004e95 50%, #0057a7 50%);
+      background: -webkit-linear-gradient(75deg, #004e95 0%, #004e95 50%, #0057a7 50%);
+      background: linear-gradient(75deg, #004e95 0%, #004e95 50%, #0057a7 50%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#004e95",endColorstr="#0057a7",GradientType=1);
+  }
+  .degrade-row {
+      background: rgb(0,58,109);
+      background: -moz-linear-gradient(45deg,  rgba(0,58,109,1) 0%, rgba(19,97,165,1) 100%);
+      background: -webkit-linear-gradient(45deg,  rgba(0,58,109,1) 0%,rgba(19,97,165,1) 100%);
+      background: linear-gradient(45deg,  rgba(0,58,109,1) 0%,rgba(19,97,165,1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003a6d', endColorstr='#1361a5',GradientType=1 );
+  }
+
+  h1,h2,h3,h4,h5,h6 {font-family: 'Viga', sans-serif;}
+  .page-header-headings h1 {
+      color: $white!important;
+  }
+}
