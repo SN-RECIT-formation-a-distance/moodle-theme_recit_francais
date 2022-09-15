@@ -32,3 +32,4 @@ $string['pluginname'] = 'RÉCIT français';
 // We need to include a lang string for each block region.                                                                          
 $string['region-side-pre'] = 'Droit';
 $string['region-side-post'] = 'En haut';
+$string['privacy:metadata'] = 'Ce plugin ne conserve aucune donnée personelle.';
