@@ -27,13 +27,14 @@ defined('MOODLE_INTERNAL') || die();
  
 // This is the version of the plugin.                                                                                               
 
-$plugin->version = 2022020900;
+$plugin->version = 2022100100;
 
 // This is the named version.
-$plugin->release = 'v2.0.0';  
+$plugin->release = 'v2.0.1-stable';  
+$plugin->supported = [39, 311];      //  Moodle 3.9.x, 3.10.x and 3.11.x are supported.
 
 // This is a stable release.
-$plugin->maturity = MATURITY_BETA;                                                                                         
+$plugin->maturity = MATURITY_STABLE;                                                                                         
 // This is the version of Moodle this plugin requires.                                                                              
 $plugin->requires = 2020061500.00; // Moodle 3.9.0                                                                                     
 // This is the component name of the plugin - it always starts with 'theme_'                                                        
@@ -42,5 +43,5 @@ $plugin->component = 'theme_recit_francais';
 
 // This is a list of plugins, this plugin depends on (and their versions).                                                          
 $plugin->dependencies = [
-    'theme_recit2' => 2022020900
+    'theme_recit2' => 2022100100
 ];
