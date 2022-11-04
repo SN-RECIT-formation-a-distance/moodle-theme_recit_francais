@@ -30,11 +30,11 @@ defined('MOODLE_INTERNAL') || die();
 $plugin->version = 2022100100;
 
 // This is the named version.
-$plugin->release = 'v2.0.1-stable';  
+$plugin->release = 'v2.1.0-beta';  
 $plugin->supported = [39, 400];      //  Moodle 3.9.x, 3.10.x and 3.11.x are supported.
 
 // This is a stable release.
-$plugin->maturity = MATURITY_STABLE;                                                                                         
+$plugin->maturity = MATURITY_BETA;                                                                                         
 // This is the version of Moodle this plugin requires.                                                                              
 $plugin->requires = 2020061500.00; // Moodle 3.9.0                                                                                     
 // This is the component name of the plugin - it always starts with 'theme_'                                                        
