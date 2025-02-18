@@ -25,23 +25,12 @@
 // This line protects the file from being accessed by a URL directly.                                                               
 defined('MOODLE_INTERNAL') || die();                                                                                                
  
-// This is the version of the plugin.                                                                                               
-
-$plugin->version = 2024050900;
-
-// This is the named version.
-$plugin->release = 'v2.1.2-stable';  
-$plugin->supported = [400, 403];      //  Moodle 3.9.x, 3.10.x and 3.11.x are supported.
-
-// This is a stable release.
+$plugin->version = 2025013000;
+$plugin->release = 'v2.1.3-stable';  
+$plugin->supported = [405, 405];
 $plugin->maturity = MATURITY_STABLE;                                                                                         
-// This is the version of Moodle this plugin requires.                                                                              
-$plugin->requires = 2022041900.00; // Moodle 4.0.0                                                                    
-// This is the component name of the plugin - it always starts with 'theme_'                                                        
-// for themes and should be the same as the name of the folder.                                                                     
+$plugin->requires = 2024071200.00; // Moodle 4.5.0
 $plugin->component = 'theme_recit_francais';   
-
-// This is a list of plugins, this plugin depends on (and their versions).                                                          
 $plugin->dependencies = [
-    'theme_recit2' => 2023011900
+    'theme_recit2' => 2025013000
 ];
