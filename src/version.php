@@ -25,9 +25,9 @@
 // This line protects the file from being accessed by a URL directly.                                                               
 defined('MOODLE_INTERNAL') || die();                                                                                                
  
-$plugin->version = 2025013000;
-$plugin->release = 'v3.0.0-stable';  
-$plugin->supported = [405, 405];
+$plugin->version = 2025013001;
+$plugin->release = 'v3.0.1-stable';  
+$plugin->supported = [405, 501];
 $plugin->maturity = MATURITY_STABLE;                                                                                         
 $plugin->requires = 2024071200.00; // Moodle 4.5.0
 $plugin->component = 'theme_recit_francais';   
